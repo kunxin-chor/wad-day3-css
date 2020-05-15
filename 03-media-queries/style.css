@@ -1,0 +1,17 @@
+body {
+    background-color:red;
+}
+
+/* if the width is minimally 800px */
+@media only screen and (min-width:800px) {
+    body {
+        background-color:green;
+    }
+}
+
+/* if the width is equal or below to 400px */
+@media only screen and (max-width:400px) {
+    body {
+        background-color: yellow;
+    }
+}
