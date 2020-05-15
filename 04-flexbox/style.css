@@ -1,0 +1,15 @@
+
+#container {
+    display: flex;
+    /* direction, or the primary axis */
+    /* default is row */
+    flex-direction: row;
+    width:100%;
+    justify-content:center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+}
